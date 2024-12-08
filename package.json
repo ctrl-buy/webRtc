@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"peerjs --port 3001\" \"node index.js\""
-
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +13,7 @@
     "concurrently": "^9.1.0",
     "ejs": "^3.1.10",
     "express": "^4.21.1",
+    "peer": "^1.0.2",
     "socket.io": "^4.8.1",
     "uuid": "^11.0.3"
   }
