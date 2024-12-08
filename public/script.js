@@ -5,10 +5,12 @@ const peer = {}
 myVideo.muted = true;
 
 const newpeer = new Peer(undefined, {
-    host: '/',
-    port: '3001',
-
+    host: 'webrtc-hc2n.onrender.com', // Replace with your domain
+    port: 443, // Use 443 for HTTPS
+    path: '/peerjs', // Match the server path
+    secure: true, // Ensure HTTPS connection
 });
+
 
 
 navigator.mediaDevices.getUserMedia({
